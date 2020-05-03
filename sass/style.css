@@ -1,1 +1,34 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+#orta {
+  background-image: url("../img/bg-image/hero1.jpg");
+  height: 888px;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+#orta::before {
+  position: absolute;
+  content: '';
+  background: #23232359;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.bir p {
+  position: absolute;
+  font-size: 23px;
+  color: white;
+  z-index: 5;
+  text-align: center;
+}
+
+.bir img {
+  position: absolute;
+  z-index: 5;
+  max-height: 130px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
